@@ -199,6 +199,14 @@ header .wrapper{
   main styling starts here
 =================================*/
 
+/* banner styling starts here */
+.banner {
+    width: 100%;
+    height: 454px;
+    background: url("../images/banner.jpg") no-repeat center/cover;
+}
+/* banner styling ends here */
+
 
 /*=================================
   main styling ends here
