@@ -319,6 +319,85 @@ header .wrapper{
 
 /* portfolio styling ends here */
 
+/* about styling starts here */
+
+.about {
+  padding: 50px;
+  background-color: var(--primary-color);
+}
+
+.about .heading-two,
+.about .para {
+  color: var(--secondary-font-color);
+}
+
+.about-content {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-list { 
+  position: relative;
+  width: 25.3%;
+  cursor: pointer;
+ }
+
+.about-list figure:first-child {
+  width: 100%;
+  height: 229px;
+}
+
+.about-list:hover .social-links{
+  opacity: .7;
+  visibility: visible;
+}
+
+.about-list img{
+  height: 100%;
+}
+
+.about-list-content {
+  background-color: var(--secondary-font-color);
+  text-align: center;
+  padding: 10px;
+}
+
+.name {
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin-bottom: -6px;
+  color: var(--primary-font-color);
+}
+
+.designation {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--primary-font-color);
+  opacity: 0.8;
+}
+
+.about-para {
+  margin-top: 13px;
+  color: var(--primary-font-color);
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.social-links {
+  position: absolute;
+  width: 229px;
+  top: 25%;
+  left: 10%;
+  height: 48px;
+  opacity: 0;
+  visibility: hidden;
+}
+/* about styling ends here */
+
+
 /*=================================
   main styling ends here
 =================================*/
