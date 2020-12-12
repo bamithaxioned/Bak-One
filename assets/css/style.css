@@ -340,17 +340,17 @@ header .wrapper{
 
 .about-list { 
   position: relative;
-  width: 25.3%;
+  width: 25%;
   cursor: pointer;
  }
 
-.about-list figure:first-child {
+.figure {
   width: 100%;
   height: 229px;
 }
 
 .about-list:hover .social-links{
-  opacity: .7;
+  opacity: .9;
   visibility: visible;
 }
 
