@@ -375,7 +375,7 @@ header .wrapper{
   font-style: italic;
   font-size: 14px;
   color: var(--primary-font-color);
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .about-para {
@@ -383,7 +383,7 @@ header .wrapper{
   color: var(--primary-font-color);
   text-align: left;
   font-size: 14px;
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .social-links {
