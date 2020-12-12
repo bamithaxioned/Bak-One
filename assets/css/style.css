@@ -364,7 +364,7 @@ header .wrapper{
   padding: 10px;
 }
 
-.name {
+.about-list-content .name {
   font-size: 19px;
   letter-spacing: 1px;
   margin-bottom: -6px;
@@ -396,6 +396,108 @@ header .wrapper{
   visibility: hidden;
 }
 /* about styling ends here */
+
+/* contact styling starts here */
+
+.contact { padding: 40px 0; }
+
+.contact-box {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form,
+.information {
+  width: 49%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  width: 48%;
+  display: inline-block;
+}
+
+input, 
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid #BEC3C7;
+  color: var(--secondary-color);
+  letter-spacing: .5px;
+}
+
+::placeholder {
+  font-style: italic;
+  font-weight: 500;
+  opacity: .7;
+}
+
+textarea {
+  margin: 20px 0;
+  resize: none;
+  height: 151px;
+}
+
+.submit-btn-div { width: 100%;}
+
+.submit-btn {
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-font-color);
+  text-transform: uppercase;
+  font-size: 15.5px;
+  letter-spacing: 1.5px;
+  padding: 6px 40px;
+  font-weight: 600;
+  float: right;
+}
+
+.information-text {
+  text-transform: uppercase;
+  color: var(--primary-font-color);
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.address { position: relative; }
+
+address {
+  display: inline-block;
+  width: 35%;
+  padding-left: 21px;
+  opacity: .7;
+  font-size: 14px;
+}
+
+.fa-map-marker {
+  position: absolute;
+  top: 4%;
+  left: 1%;
+}
+
+.fa {
+  width: 20px;
+  height: 20px;
+  opacity: .9;
+  font-size: 16px;
+}
+
+.information a {
+  display: block;
+  opacity: .7;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* contact styling ends here */
 
 
 /*=================================
