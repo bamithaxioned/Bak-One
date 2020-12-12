@@ -399,7 +399,7 @@ header .wrapper{
 
 /* contact styling starts here */
 
-.contact { padding: 40px 0; }
+.contact { padding: 40px 0 60px; }
 
 .contact-box {
   margin-top: 46px;
@@ -440,7 +440,7 @@ textarea {
 }
 
 textarea {
-  margin: 20px 0;
+  margin: 21px 0;
   resize: none;
   height: 151px;
 }
