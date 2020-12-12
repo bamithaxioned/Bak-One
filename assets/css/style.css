@@ -507,7 +507,42 @@ address {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer {
+  background-color: var(--secondary-color);
+  padding: 21px;
+}
 
+footer .wrapper {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-list{ padding: 0 10px;}
+
+.copyright-heading , .copyright-heading a{
+  font-size: 15px;
+  color: var(--secondary-font-color);
+}
+
+.copyright-list:nth-child(1) { border-right: 2px solid rgba(255, 255, 255, 0.734); }
+
+
+.top-btn {
+  padding: 12px 17px;
+  text-indent: -999999px;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+}
+
+.top-btn .fa {
+  text-indent: 0;
+  float: right;
+  font-size: 20px;
+  color: #fff;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
