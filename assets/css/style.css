@@ -129,7 +129,7 @@ h1 {
 =================================*/
 header {
   position: relative;
-  padding: 25px;
+  padding: 23px;
 }
 
 header .wrapper{
@@ -137,12 +137,14 @@ header .wrapper{
   align-items: center;
   justify-content: space-between;
 }
+
 .back-heading-titie {
   font-size: 25px;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--primary-font-color);
 }
+
 .heading {
   display: block;
   font-size: 15px;
@@ -156,6 +158,8 @@ header .wrapper{
 .navigation-link {
   padding: 6.5px 21px;
   font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .1px;
   text-transform: uppercase;
   color: var(--primary-font-color);
   transition: .3s;
@@ -187,6 +191,7 @@ header .wrapper{
   margin: 7px 0px;
   transition: .5s;
 }
+
 .active-hamburger .line { background-color: var(--primary-color); }
 .active-hamburger .line1 { transform:  translateY(12px) rotate(41deg); }
 .active-hamburger .line2 { transform: scale(0); }
