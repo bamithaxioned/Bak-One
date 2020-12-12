@@ -100,7 +100,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1185px;
-  width: 90%; 
+  width: 94%; 
   margin: 0 auto;
 }
 
@@ -116,11 +116,81 @@ h1 {
   font-family: 'Poppins', sans-serif;
   color: #000;
 }
+/* color */
+:root {
+  --primary-color: #3DBC9A;
+  --primary-font-color: #444444;
+  --secondary-color: #2D3E50;
+  --secondary-font-color: #fff;
+
+}
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  position: relative;
+  padding: 25px;
+}
 
+header .wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back-heading-titie {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--primary-font-color);
+}
+.heading {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -14px;
+  text-transform: capitalize;
+}
 
+.navigation { z-index: 2;}
+
+.navigation-link {
+  padding: 6.5px 21px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--primary-font-color);
+  transition: .3s;
+}
+
+.navigation-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-font-color);
+}
+
+.hamburger {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  padding: 5px;
+  overflow: hidden;
+  text-indent: -999999px;
+  cursor: pointer;
+  z-index: 3;
+  display: none;
+}
+
+.line {
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: var(--primary-font-color);
+  margin: 7px 0px;
+  transition: .5s;
+}
+.active-hamburger .line { background-color: var(--primary-color); }
+.active-hamburger .line1 { transform:  translateY(12px) rotate(41deg); }
+.active-hamburger .line2 { transform: scale(0); }
+.active-hamburger .line3 { transform: translateY(-10px) rotate(-46deg);}
 /*=================================
   Header styling ends here
 =================================*/  
